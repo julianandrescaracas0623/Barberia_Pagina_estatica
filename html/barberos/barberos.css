@@ -1,0 +1,31 @@
+.barberos {
+  padding: 5rem;
+  display: flex;
+}
+
+.titulo3 {
+  padding: 4rem;
+  font-size: 34px;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  font-weight: bold;
+  -webkit-text-decoration: underline calc(50% - 13px) #bf9f60;
+          text-decoration: underline calc(50% - 13px) #bf9f60;
+  text-transform: uppercase;
+  position: relative;
+  left: 40px;
+}
+
+.p_barber {
+  padding: auto;
+  text-align: left;
+  position: relative;
+  left: 64px;
+  font-size: 18px;
+}
+
+.img__barber {
+  position: relative;
+  width: 600px;
+  left: 180px;
+}/*# sourceMappingURL=barberos.css.map */

@@ -1,0 +1,36 @@
+.carrusel
+{
+    display: flex;
+    width:auto;
+    height: 430px;
+    
+    /* Media query para pantallas de hasta 768px */
+    @media screen and (max-width: 768px) {
+        height: 250px;
+    }
+}
+
+.carrusel img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: 7s;
+    
+    /* Media query para pantallas de hasta 768px */
+    @media screen and (max-width: 768px) {
+        width: 200px;
+    }
+}
+
+.carrusel img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+    
+    /* Media query para pantallas de hasta 768px */
+    @media screen and (max-width: 768px) {
+        width: 250px;
+    }
+}

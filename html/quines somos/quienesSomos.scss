@@ -1,0 +1,49 @@
+.quienesSomos {
+    padding: 5rem;
+    display: flex;
+    
+    /* Media query para pantallas de hasta 768px */
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        padding: 2rem;
+    }
+}
+
+.titulo {
+    padding: 4rem;
+    font-size: 34px;
+    font-family:'Courier New', Courier, monospace;
+    font-style:italic;
+    font-weight: bold;
+    text-decoration: underline calc(50% - 13px) #bf9f60;
+    text-transform: uppercase;
+    position: relative;
+    left: 70px;
+    
+    /* Media query para pantallas de hasta 768px */
+    @media screen and (max-width: 768px) {
+        left: 0;
+    }
+}
+
+p {
+    padding: auto;
+    text-justify: auto;
+    
+    /* Media query para pantallas de hasta 768px */
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+}
+
+.img__section {
+    position: relative;
+    width: 600px;
+    left: 80px;
+    
+    /* Media query para pantallas de hasta 768px */
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        left: 0;
+    }
+}

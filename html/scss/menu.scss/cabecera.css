@@ -1,0 +1,76 @@
+@charset "UTF-8";
+.cabecera {
+  padding: 2rem;
+  display: flex;
+  background-color: #111010;
+  justify-content: space-between;
+  /* Media query para pantallas de hasta 768px */
+}
+@media screen and (max-width: 768px) {
+  .cabecera {
+    flex-direction: column;
+    padding: 1rem;
+  }
+}
+
+.menu__lista {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /* Media query para pantallas de hasta 768px */
+}
+@media screen and (max-width: 768px) {
+  .menu__lista {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+}
+
+.menu__lista li {
+  margin: 0 1rem;
+  /* Media query para pantallas de hasta 768px */
+}
+@media screen and (max-width: 768px) {
+  .menu__lista li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.menu__lista li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  position: relative;
+  top: 2rem;
+  right: 2rem;
+  text-decoration: underline;
+  /* Media query para pantallas de hasta 768px */
+}
+@media screen and (max-width: 768px) {
+  .menu__lista li a {
+    top: 0;
+    right: 0;
+  }
+}
+
+.menu__lista li a:hover {
+  color: #bf9f60; /* Puedes cambiar el color a lo que prefieras para el hover */
+  text-decoration: underline;
+  /* Puedes agregar más estilos aquí para el hover si lo deseas */
+}
+
+.logo {
+  width: 10rem;
+  height: auto;
+  position: relative;
+  left: 3rem;
+  /* Media query para pantallas de hasta 768px */
+}
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}/*# sourceMappingURL=cabecera.css.map */
